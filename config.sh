@@ -1,12 +1,12 @@
 #!/bin/bash
 
-export GITHUB_USER="FPSensor"
-export GITHUB_EMAIL="gkartytgmail.com"
+export GITHUB_USER=""
+export GITHUB_EMAIL=""
 
 export device=""
 
 export ROM=""
-export ROM_DIR="${WORKSPACE}"
+export ROM_DIR="/home/${user}/${ROM}-${device}"
 export ROM_VERSION=""
 export local_manifest_url=""
 export manifest_url=""
@@ -23,7 +23,7 @@ export ccache_size=""
 
 export jenkins="true"
 
-export release_repo="FPSensor/releases"
+export release_repo="E5Series/releases"
 export RELEASES_DIR="${WORKSPACE}/releases"
 
 export timezone="UTC"
